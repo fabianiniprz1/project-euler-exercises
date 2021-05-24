@@ -1,13 +1,7 @@
-number = int(input('Enter the base: '))
-exponent = int(input('Enter the exponent: '))
-result = str(number ** exponent)
-count = 0
-acum = 0
+from Power_digit_sum import *
 
-while (len(result) > count):
-	acum += int(result[count])
-	print(acum)
-	count	+= 1
+def main():
+	Power_digit_sum()
 
-
-print (acum)
+if __name__ == '__main__':
+    main()
